@@ -14,9 +14,6 @@ while True:
         print("The max value cannot be less than/equal to the min. Max is now 10");
         max = 10;
 
-    result = random.randint(min, max);
-
-    print('Rolling die.... The result is ', result);
 
     while True:
         answer = input("Would you like to run again? (y/n)" );
